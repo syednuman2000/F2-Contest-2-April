@@ -32,10 +32,10 @@ function printList(){
             }
         }
     }
-    if(profession.value == "devloper"){
+    if(profession.value == "developer"){
         let x=1;
         for(let i=0;i<list.length;i++){
-            if(list[i].profession.toLowerCase() === "devloper"){
+            if(list[i].profession.toLowerCase() === "developer"){
                 let listItem = document.createElement("div");
                 listItem.class = listItem;
                 let number = document.createElement("p");
